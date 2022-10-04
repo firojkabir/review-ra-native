@@ -1,7 +1,7 @@
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { useCallback } from 'react';
-import Home from './screens/home';
+import Navigator from './routes/homeStack';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -22,7 +22,7 @@ function App() {
 	} 
 	
 	return (
-		<Home />
+		<Navigator />
 	);
 }
 

@@ -5,7 +5,7 @@ import { globalStyles } from '../styles/global';
 function ReviewDetails() {
   return (
 	<View style={globalStyles.containter}>
-		<Text> ReviewDetails screen</Text>
+		<Text style={globalStyles.titleText}> ReviewDetails screen</Text>
 	</View>
   )
 }

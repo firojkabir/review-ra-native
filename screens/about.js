@@ -5,7 +5,7 @@ import { globalStyles } from '../styles/global';
 function About() {
   return (
 	<View style={globalStyles.containter}>
-		<Text> About screen</Text>
+		<Text style={globalStyles.titleText}> About screen</Text>
 	</View>
   )
 }
