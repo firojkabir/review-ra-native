@@ -1,18 +1,13 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import { Text, View } from 'react-native';
+import { globalStyles } from '../styles/global';
 
 function ReviewDetails() {
   return (
-	<View style={styles.containter}>
+	<View style={globalStyles.containter}>
 		<Text> ReviewDetails screen</Text>
 	</View>
   )
 }
-
-const styles = StyleSheet.create({
-	containter: {
-		padding: 24,
-	}
-})
 
 export default ReviewDetails
