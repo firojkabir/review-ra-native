@@ -1,7 +1,7 @@
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { useCallback } from 'react';
-import Navigator from './routes/homeStack';
+import Navigator from './routes/drawer';
 
 SplashScreen.preventAutoHideAsync();
 
